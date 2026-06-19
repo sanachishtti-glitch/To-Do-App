@@ -22,21 +22,21 @@ This app helps users manage daily tasks efficiently with support for task editin
 ![To-Do-App](./public/image.png)
 
 
-## How to Use
+#How to Use
 
-# Add a Task
+## Add a Task
 
 Enter a task in the input field and click Add.
 
-# Complete a Task
+## Complete a Task
 
 Click the checkbox beside a task.
 
-# Edit a Task
+## Edit a Task
 
 Double-click any task to edit it.
 
-# Delete a Task
+## Delete a Task
 
 Click the Delete button.
 
