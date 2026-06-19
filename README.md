@@ -22,7 +22,7 @@ This app helps users manage daily tasks efficiently with support for task editin
 ![To-Do-App](./public/image.png)
 
 
-#How to Use
+# How to Use
 
 ## Add a Task
 
