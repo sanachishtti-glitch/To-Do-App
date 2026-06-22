@@ -43,9 +43,6 @@ export default function TodoApp() {
   const [hydrated, setHydrated] = useState(false);
   
 
-
-  
-  // theme switcher state aur hook
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
@@ -129,7 +126,7 @@ export default function TodoApp() {
       <div className="flex items-center justify-between w-full mb-5">
         <h1 className="text-xl font-bold text-slate-800 dark:text-slate-100">My Tasks</h1>
         <div className="flex gap-2 shrink-0">
-          {/* Sunset Icon -> Enables Light Mode */}
+       
           <button
             type="button"
             onClick={() => setTheme("light")}
@@ -142,8 +139,6 @@ export default function TodoApp() {
           >
             <Sunset size={20} />
           </button>
-
-          {/* Moon Icon -> Enables Dark Mode */}
           <button
             type="button"
             onClick={() => setTheme("dark")}

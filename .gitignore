@@ -32,3 +32,4 @@ next-env.d.ts
 
 # legacy static build
 /tailwind.css
+.vercel
